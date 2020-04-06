@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+<canvas id="bgcanvas" style="border:2px #333 solid;">
+	
+</canvas>
+<script>
+	window.onload=function(){
+		var canvas;
+	var c1;
+	canvas=document.getElementById("bgcanvas");
+	c1=canvas.getContext("2d");
+	
+	var img=document.getElementById("bg");
+	c1.drawImage(img,0,0);
+	
+	}
+	
+	
+	
+	</script>
+
+
+
+</body>
+</html>
